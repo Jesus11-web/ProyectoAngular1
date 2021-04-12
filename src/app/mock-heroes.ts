@@ -1,13 +1,15 @@
-import {Hero} from "./hero";
+import { Hero } from "./hero";
 
 export const HEROES: Hero[] = [
-    {id:11, name: "Superman", edad:30, poder: "Super fuerte", identidad: "Clar kent"},
-    {id:12, name: "Batman", edad:30, poder: "Gatyets", identidad: "Bruce Waye"},
-    {id:13, name: "Hulk", edad:30, poder: "Fuerza", identidad: "Baner"},
-    {id:14, name: "Thor", edad:30, poder: "Dios del rayo", identidad: "Thor"},
-    {id:15, name: "Spiderman", edad:30, poder: "Lanzar telarañas", identidad: "Piter Parker"},
-    {id:16, name: "Black Phanter", edad:30, poder: "Lanzar telarañas", identidad: "Piter Parker"},
-    {id:17, name: "Flash", edad:30, poder: "Veloz", identidad: "Barri Aleen"},
-    {id:18, name: "Bruja Escarlata", edad:30, poder: "Magia", identidad: "Wanda"}
+    { id: 11, name: "Superman", edad: 30, poder: "Superfuerza, volar", identidad: "Clark Ken", universo: "DC" },
+    { id: 12, name: "Batman", edad: 27, poder: "Traje de murcielago", identidad: "Bruno Diaz", universo: "DC" },
+    { id: 13, name: "Hulk", edad: 40, poder: "Transformacion", identidad: "Bruce Banner", universo: "Marvel" },
+    { id: 14, name: "Ironman", edad: 28, poder: "Traje Tecnologico", identidad: "Tony Stark", universo: "Marvel" },
+    { id: 15, name: "Thor", edad: 1000, poder: "Manipular Truenos y Rayos", identidad: "Thor", universo: "Marvel" },
+    { id: 16, name: "Spiderman", edad: 20, poder: "Telaraña, Sentido Aracnido", identidad: "Peter Parker", universo: "Marvel" },
+    { id: 17, name: "Black Widow", edad: 33, poder: "Fuerza Superior", identidad: "Natasha Romanof", universo: "Marvel" },
+    { id: 18, name: "Flash", edad: 24, poder: "Velocidad del sonido", identidad: "Barry Allen", universo: "DC" },
+    { id: 19, name: "Bruja escarlata", edad: 29, poder: "Magia", identidad: "Wanda Maximoff", universo: "Marvel" },
+    { id: 20, name: "Wonder Woman", edad: 26, poder: "Amazonico", identidad: "Diana Prince", universo: "DC" },
 
 ];
